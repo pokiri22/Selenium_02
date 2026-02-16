@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_19" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<testFolder url="file://$MODULE_DIR$/src/test/resources"/>
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<lib name="Maven: io.opentelemetry:opentelemetry-api-incubator:1.42.1-alpha" scope="RUNTIME"/>
+	<lib name="Maven: org.webjars:jquery:3.7.1" scope="RUNTIME"/>
+	<lib name="Maven: org.projectlombok:lombok:1.18.34" scope="PROVIDED"/>
+	<levels>
+		<level name="Maven: org.apache.logging.log4j:log4j-api:2.24.3" value="project"/>
+		<level name="Maven: org.apache.logging.log4j:log4j-core:2.24.3" value="project"/>
+		<level name="Maven: com.aventstack:extentreports:5.0.9" value="project"/>
+		<level name="Maven: io.reactivex.rxjava3:rxjava:3.0.4" value="project"/>
+		<level name="Maven: org.reactivestreams:reactive-streams:1.0.3" value="project"/>
+		<level name="Maven: org.freemarker:freemarker:2.3.30" value="project"/>
+		<level name="Maven: com.google.code.gson:gson:2.8.6" value="project"/>
+		<level name="Maven: org.apache.poi:poi-ooxml:5.4.0" value="project"/>
+		<level name="Maven: org.apache.poi:poi:5.4.0" value="project"/>
+		<level name="Maven: commons-codec:commons-codec:1.17.1" value="project"/>
+		<level name="Maven: org.apache.commons:commons-math3:3.6.1" value="project"/>
+		<level name="Maven: com.zaxxer:SparseBitSet:1.3" value="project"/>
+		<level name="Maven: org.apache.poi:poi-ooxml-lite:5.4.0" value="project"/>
+		<level name="Maven: org.apache.xmlbeans:xmlbeans:5.3.0" value="project"/>
+		<level name="Maven: org.apache.commons:commons-compress:1.27.1" value="project"/>
+		<level name="Maven: org.apache.commons:commons-lang3:3.16.0" value="project"/>
+		<level name="Maven: commons-io:commons-io:2.18.0" value="project"/>
+		<level name="Maven: com.github.virtuald:curvesapi:1.08" value="project"/>
+		<level name="Maven: org.apache.commons:commons-collections4:4.4" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-java:4.25.0" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-api:4.25.0" value="project"/>
+		<level name="Maven: org.jspecify:jspecify:1.0.0" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:4.25.0" value="project"/>
+		<level name="Maven: com.google.auto.service:auto-service-annotations:1.1.1" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-chromium-driver:4.25.0" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-json:4.25.0" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-manager:4.25.0" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-devtools-v127:4.25.0" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-devtools-v128:4.25.0" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-devtools-v129:4.25.0" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-devtools-v85:4.25.0" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-edge-driver:4.25.0" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-firefox-driver:4.25.0" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-http:4.25.0" value="project"/>
+		<level name="Maven: dev.failsafe:failsafe:3.3.2" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-ie-driver:4.25.0" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-remote-driver:4.25.0" value="project"/>
+		<level name="Maven: com.google.guava:guava:33.3.0-jre" value="project"/>
+		<level name="Maven: com.google.guava:failureaccess:1.0.2" value="project"/>
+		<level name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" value="project"/>
+		<level name="Maven: com.google.code.findbugs:jsr305:3.0.2" value="project"/>
+		<level name="Maven: org.checkerframework:checker-qual:3.43.0" value="project"/>
+		<level name="Maven: com.google.errorprone:error_prone_annotations:2.28.0" value="project"/>
+		<level name="Maven: com.google.j2objc:j2objc-annotations:3.0.0" value="project"/>
+		<level name="Maven: io.opentelemetry.semconv:opentelemetry-semconv:1.25.0-alpha" value="project"/>
+		<level name="Maven: io.opentelemetry:opentelemetry-api:1.42.1" value="project"/>
+		<level name="Maven: io.opentelemetry:opentelemetry-context:1.42.1" value="project"/>
+		<level name="Maven: io.opentelemetry:opentelemetry-exporter-logging:1.42.1" value="project"/>
+		<level name="Maven: io.opentelemetry:opentelemetry-sdk-common:1.42.1" value="project"/>
+		<level name="Maven: io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:1.42.1" value="project"/>
+		<level name="Maven: io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:1.42.1" value="project"/>
+		<level name="Maven: io.opentelemetry:opentelemetry-api-incubator:1.42.1-alpha" value="project"/>
+		<level name="Maven: io.opentelemetry:opentelemetry-sdk-trace:1.42.1" value="project"/>
+		<level name="Maven: io.opentelemetry:opentelemetry-sdk:1.42.1" value="project"/>
+		<level name="Maven: io.opentelemetry:opentelemetry-sdk-metrics:1.42.1" value="project"/>
+		<level name="Maven: io.opentelemetry:opentelemetry-sdk-logs:1.42.1" value="project"/>
+		<level name="Maven: net.bytebuddy:byte-buddy:1.15.1" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-os:4.25.0" value="project"/>
+		<level name="Maven: org.apache.commons:commons-exec:1.4.0" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-safari-driver:4.25.0" value="project"/>
+		<level name="Maven: org.seleniumhq.selenium:selenium-support:4.25.0" value="project"/>
+		<level name="Maven: org.testng:testng:7.11.0" value="project"/>
+		<level name="Maven: org.slf4j:slf4j-api:2.0.16" value="project"/>
+		<level name="Maven: org.jcommander:jcommander:1.83" value="project"/>
+		<level name="Maven: org.webjars:jquery:3.7.1" value="project"/>
+		<level name="Maven: org.projectlombok:lombok:1.18.34" value="project"/>
+	</levels>
+</component>
