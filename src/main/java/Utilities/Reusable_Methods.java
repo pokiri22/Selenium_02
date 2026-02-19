@@ -51,5 +51,28 @@ public class Reusable_Methods {
         options.addArguments("--headless=new");
         return options;
     }
+    public static ChromeOptions icognito()
+    {
+        options.addArguments("--incognito");
+        return options;
+    }
+    public static ChromeOptions mobileEmulation()
+    {
+        Map<String, Object> mobileEmulation = new HashMap<>();
+        mobileEmulation.put("deviceName", "iPhone 14 Pro");
+        options.setExperimentalOption("mobileEmulation", mobileEmulation);
+        return options;
+    }
+
+    public static ChromeOptions camera_And_Microphone()
+    {
+        Map<String,Object> prefs = new HashMap<>();
+        prefs.put("profile.default_content_setting_values.media_stream_camera", 1);
+        prefs.put("profile.default_content_setting_values.media_stream_mic", 1);
+        options.setExperimentalOption("prefs",prefs);
+        return options;
+    }
+
+
 
 }

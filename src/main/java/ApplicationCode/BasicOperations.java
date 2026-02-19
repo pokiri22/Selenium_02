@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.locators.RelativeLocator;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.asserts.Assertion;
 import org.testng.asserts.SoftAssert;
@@ -317,12 +318,12 @@ public class BasicOperations extends BaseClass {
         SoftAssert ass = new SoftAssert();
         ass.assertEquals(text,"Sometimes you'll see a typo, other times you won==,t.");
         ass.assertAll();
-
     }
 
     public  static void main(String[] args) throws IOException, InterruptedException {
         BasicOperations obj = new BasicOperations();
         obj.assertions();
         //driver.quit();
+        WebElement ele = driver.findElement(RelativeLocator.with(By.xpath("")).below(By.xpath("")));
     }
 }

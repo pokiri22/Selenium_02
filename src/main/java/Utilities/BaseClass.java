@@ -26,7 +26,7 @@ public class BaseClass {
         if(prop.getProperty("Chrome_Options").equals("yes"))
         {
             System.out.println("chrome options enabled");
-            ChromeOptions options =  Reusable_Methods.headleass_Testing();
+            ChromeOptions options =  Reusable_Methods.mobileEmulation();
             driver = new ChromeDriver(options);
         }
         else

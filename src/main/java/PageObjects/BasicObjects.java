@@ -3,6 +3,7 @@ package PageObjects;
 import org.apache.xmlbeans.impl.xb.xsdschema.FieldDocument;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.locators.RelativeLocator;
 
 import java.util.List;
 
@@ -139,4 +140,7 @@ public class BasicObjects {
 
     @FindBy(xpath = "//*[@id=\"content\"]/div/p[2]")
     public WebElement typo_text;
+
+    @FindBy(RelativeLocator.RelativeBy(RelativeLocator))
+    public WebElement xx;
 }
