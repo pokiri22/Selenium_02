@@ -23,6 +23,7 @@ public class BaseClass {
         FileReader fr = new FileReader(System.getProperty("user.dir")+"//src//main//resources//global.properties");
         Properties prop = new Properties();
         prop.load(fr);
+        System.out.println(" BasicClass object is created");
         if(prop.getProperty("Chrome_Options").equals("yes"))
         {
             System.out.println("chrome options enabled");

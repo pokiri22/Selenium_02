@@ -141,6 +141,4 @@ public class BasicObjects {
     @FindBy(xpath = "//*[@id=\"content\"]/div/p[2]")
     public WebElement typo_text;
 
-    @FindBy(RelativeLocator.RelativeBy(RelativeLocator))
-    public WebElement xx;
 }

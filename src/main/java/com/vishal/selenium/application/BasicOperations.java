@@ -17,6 +17,8 @@ import org.testng.asserts.Assertion;
 import org.testng.asserts.SoftAssert;
 
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -28,15 +30,19 @@ public class BasicOperations extends BaseClass {
     public static Framework1 fw;
     BasicObjects BO;
     static Actions act;
+    public WebDriver driver_BO = new ChromeDriver();
     public BasicOperations() throws IOException, InterruptedException {
+        System.out.println(" Basic Operations object is created");
         fw = new Framework1();
         BO = PageFactory.initElements(driver,BasicObjects.class);
+        this.driver_BO = driver;
     }
-    public void basic_Authentication() throws InterruptedException {
+    public void basic_Authentication(String username,String pass) throws InterruptedException, MalformedURLException {
         // https://username:password@url
         // username = admin , password = admin
-        driver.get("https://admin:admin@the-internet.herokuapp.com/basic_auth");
-        Thread.sleep(4);
+        String url_string = "https://"+username+":"+pass+"@the-internet.herokuapp.com/basic_auth";
+        driver.get(url_string);
+        Thread.sleep(4000);
         driver.navigate().back();
         // method 2 - selenium 4
         // ((HasAuthentication) driver).register(UsernameAndPassword.of("admin", "admin"))

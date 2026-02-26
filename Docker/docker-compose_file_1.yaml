@@ -1,0 +1,18 @@
+version: "3"
+services:
+
+  selenium-hub:
+    image: selenium/hub:4.18.1
+    ports:
+      - "4444:4444"   # localhost:4444 ( host )  : Container port 4444 (Selenium Hub)
+
+  chrome:
+    image: selenium/node-chrome:4.18.1
+    depends_on:
+      - selenium-hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442 # Node → Hub communication
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443 #  Hub → Node communication
+    # to run this file we have to type  docker-compose -f FILE_NAME up
+    # if you save your docker yaml file as 'docker-compose.yaml' then you can run as ' docker-compose up'
